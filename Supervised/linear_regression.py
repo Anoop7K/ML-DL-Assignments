@@ -41,7 +41,7 @@ for epoch in range(num_epochs):
     y_pred = model(X)
     loss = criterion(y_pred, y)
 
-    # Backward pass and update
+    # Backward pass and update 
     loss.backward()
     optimizer.step()
     optimizer.zero_grad()

@@ -6,7 +6,7 @@ from torchvision.transforms import ToTensor
 
 # Define the FashionMNIST dataset and DataLoader for training and testing
 training_data = datasets.FashionMNIST(
-    root='data',
+    root='data', 
     train=True,
     download=True,
     transform=ToTensor(),
