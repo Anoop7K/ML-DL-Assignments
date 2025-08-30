@@ -5,6 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
 # Load dataset into DataFrame
+## Dataset url "https://www.kaggle.com/datasets/kukuroo3/body-performance-data"
 data = pd.read_csv("abalone.csv")
 
 # Step 2: Drop Sex and Rings columns as requested
