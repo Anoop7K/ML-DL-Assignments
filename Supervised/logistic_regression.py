@@ -2,7 +2,7 @@
 
 import torch
 import torch.nn as nn
-import numpy as np
+import numpy as np 
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn import datasets
